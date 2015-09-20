@@ -1,0 +1,15 @@
+{
+  "port": 8001,
+  "allowed-origins" : [
+    "*"
+  ],
+  "extractors" : [
+    "read-art",
+    "readability-parser-api",
+    "node-readability"
+  ],
+  "options": {
+    "readability_token": "",
+    "wce_proxy_url": ""
+  }
+}
