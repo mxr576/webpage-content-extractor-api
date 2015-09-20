@@ -5,7 +5,6 @@
   ],
   "extractors" : [
     "read-art",
-    "readability-parser-api",
     "node-readability"
   ],
   "options": {
