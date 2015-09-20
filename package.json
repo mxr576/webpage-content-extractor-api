@@ -1,7 +1,7 @@
 {
   "name": "wce-api",
   "description": "REST API over the Web page Content Extractor module.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "readability",
     "grab",

@@ -6,11 +6,11 @@ EXPOSE 8001
 
 ENV GIT_BRANCH master
 
-RUN apt-get update &&\
-  apt-get upgrade -y &&\
-  apt-get install -y git supervisor &&\
-  apt-get clean &&\
-  apt-get autoclean
+RUN apt-get update && \
+  apt-get upgrade -y && \
+  apt-get install -y git supervisor && \
+  apt-get clean && \
+  rm -rf /var/lib/apt/lists/*
 
 RUN git clone https://github.com/mxr576/webpage-content-extractor-api.git wce-api && \
   cd wce-api && \
