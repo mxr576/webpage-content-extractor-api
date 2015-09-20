@@ -1,7 +1,7 @@
 # Web page Content Extractor API (wce-api)
 ---
 
-REST API over the Web page Content Extractor (wce) node module.
+REST API over the Web page Content Extractor (wce) [node module](https://www.npmjs.com/package/wce).
 
 Currently works with the following extractors:
 
@@ -11,7 +11,7 @@ Currently works with the following extractors:
 4. [node-unfluff](https://github.com/ageitgey/node-unfluff)
 5. [wce-proxy](https://github.com/mxr576/webpage-content-extractor#wce-proxy)
 
-For detailed information, please check the [Webpage Content Extractor](https://github.com/mxr576/webpage-content-extractor) module's page.
+For detailed information, please check the [Webpage Content Extractor](https://github.com/mxr576/webpage-content-extractor) module's Github page.
 
 ### Usage example
 
@@ -22,7 +22,7 @@ node wce-api/index.js
 
 ### Docker usage example
 
-Build the image on your local machine:ł
+Build the image on your local machine:
 
 ```sh
 git clone https://github.com/mxr576/webpage-content-extractor-api.git wce-api
