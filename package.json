@@ -1,7 +1,7 @@
 {
   "name": "wce-api",
   "description": "REST API over the Web page Content Extractor module.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "keywords": [
     "readability",
     "grab",
@@ -33,10 +33,12 @@
   "license": "Apache-2.0",
   "main": "index.js",
   "dependencies": {
-    "bunyan": "^1.5.1",
+    "bunyan": "^0.22.1",
     "nconf": "^0.8.0",
     "path": "^0.12.7",
-    "restify": "^4.0.3",
+    "restify": "~3.0.2",
+    "underscore": "^1.8.3",
+    "util": "^0.10.3",
     "wce": "^1.0.0"
   }
 }
