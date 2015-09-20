@@ -33,17 +33,10 @@
   "license": "Apache-2.0",
   "main": "index.js",
   "dependencies": {
-    "events": "^1.0.2",
-    "fieldval": "^0.5.1",
-    "node-readability": "^1.0.2",
-    "path": "^0.11.14",
-    "read-art": "^0.3.5",
-    "readability-api": "^0.4.0",
-    "request": "^2.57.0",
-    "underscore": "^1.8.3",
-    "unfluff": "^0.11.0",
-    "util": "^0.10.3",
-    "wce": "^1.0.0",
-    "winston": "^1.0.1"
+    "bunyan": "^1.5.1",
+    "nconf": "^0.8.0",
+    "path": "^0.12.7",
+    "restify": "^4.0.3",
+    "wce": "^1.0.0"
   }
 }
