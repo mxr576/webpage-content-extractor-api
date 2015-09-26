@@ -30,7 +30,7 @@ cd wce-api/docker
 docker build -t mxr576/wce-api .
 ```
 
-or pull the pre-build image from Dockerhub
+or pull the pre-built image from Dockerhub
 
 ```sh
 docker pull mxr576/wce-api
@@ -39,7 +39,7 @@ docker pull mxr576/wce-api
 then start a new container:
 
 ```sh
-docker run -id -p 8001:8001 --name mxr576/wce-api -t wce
+docker run -id -p 8001:8001 --name wce-api -t mxr576/wce-api
 ```
 
 ### About the settings
