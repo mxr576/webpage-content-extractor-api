@@ -1,7 +1,7 @@
 {
   "name": "wce-api",
   "description": "REST API over the Web page Content Extractor module.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "readability",
     "grab",
@@ -23,22 +23,22 @@
       "web": "biczodezso.hu"
     }
   ],
-  "repository": [
-    {
-      "type": "git",
-      "url": "https://github.com/mxr576/webpage-content-extractor-api.git",
-      "web": "https://github.com/mxr576/webpage-content-extractor-api"
-    }
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxr576/webpage-content-extractor-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mxr576/webpage-content-extractor-api/issues"
+  },
   "license": "Apache-2.0",
   "main": "index.js",
   "dependencies": {
     "bunyan": "^0.22.1",
-    "nconf": "^0.8.0",
+    "nconf": "^0.8.2",
     "path": "^0.12.7",
     "restify": "~3.0.2",
     "underscore": "^1.8.3",
     "util": "^0.10.3",
-    "wce": "^1.0.0"
+    "wce": "^1.0.2"
   }
 }
