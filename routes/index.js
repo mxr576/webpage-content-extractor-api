@@ -30,7 +30,6 @@ module.exports = function (server) {
             });
           });
       } catch (error) {
-        console.log(error);
         res.send(404, util.inspect(error));
       }
     }
