@@ -2,10 +2,6 @@ FROM node:0.12
 
 MAINTAINER  Dezső BICZÓ "mxr576@gmail.com"
 
-EXPOSE 8001
-
-ENV GIT_BRANCH master
-
 RUN apt-get update && \
   apt-get upgrade -y && \
   apt-get install -y git supervisor && \
@@ -20,5 +16,13 @@ ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ADD start.sh /start.sh
 
 RUN chmod +x /start.sh
+
+EXPOSE 8001
+
+ENV GIT_BRANCH master
+ENV NODE_ENV production
+ENV NODE_LOG_LEVEL error
+
+VOLUME ["/var/log/supervisor/"]
 
 CMD ["/bin/bash", "-c", "/start.sh"]
