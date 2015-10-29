@@ -1,0 +1,16 @@
+wce:
+  image: mxr576/wce-api
+  hostname: wce
+  restart: always
+  environment:
+    - NODE_ENV=production
+    - NODE_LOG_LEVEL=error
+  ports:
+    - "8001"
+  volumes_from:
+    - wce_data
+wce_data:
+  image: mxr576/wce-api
+  command: echo "Data only container for the WCE API container."
+  volumes:
+    - /var/log/supervisor/
