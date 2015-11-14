@@ -1,5 +1,6 @@
 {
   "port": 8001,
+  "max-threads": 0,
   "allowed-origins" : [
     "*"
   ],
