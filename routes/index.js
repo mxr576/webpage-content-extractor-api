@@ -20,8 +20,8 @@ module.exports = function (server) {
           .on('success', function (result, errors) {
             res.send(200, {
               content: result.content,
-              errors: util.inspect(errors),
-              component: result.component
+              component: result.component,
+              errors: util.inspect(errors)
             });
           })
           .on('error', function (errors) {

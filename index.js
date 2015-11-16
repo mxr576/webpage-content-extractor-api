@@ -61,7 +61,7 @@ else {
 
   server.use(restify.bodyParser({mapParams: false}));
   server.use(restify.queryParser({mapParams: false}));
-  server.use(restify.CORS({origins: config.get('allowed-origins')}));
+  server.use(restify.CORS({origins: config.get('allowed-origins') || '*'}));
   server.use(restify.gzipResponse());
 
   // Default error handler. Personalize according to your needs.
