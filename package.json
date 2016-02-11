@@ -1,7 +1,7 @@
 {
   "name": "wce-api",
   "description": "REST API over the Web page Content Extractor module.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "keywords": [
     "readability",
     "grab",
@@ -16,6 +16,9 @@
     "content",
     "extract"
   ],
+  "engines": {
+    "node": "0.12"
+  },
   "maintainers": [
     {
       "name": "Dezső BICZÓ",
@@ -35,11 +38,11 @@
   "dependencies": {
     "bunyan": "^0.22.1",
     "cluster": "^0.7.7",
-    "nconf": "^0.8.2",
+    "nconf": "^0.8.4",
     "path": "^0.12.7",
     "restify": "~3.0.2",
     "underscore": "^1.8.3",
     "util": "^0.10.3",
-    "wce": "^1.0.2"
+    "wce": "^1.0.6"
   }
 }
